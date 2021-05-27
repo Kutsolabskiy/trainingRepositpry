@@ -4,30 +4,33 @@ pipeline {
         maven "Maven3"
     }
 
-    stages {
+
         try {
+            stages {
             stage('Build') {
                 steps {
                     bat "cd $WORKSPACE"
                     bat "mvn clean test"
                 }
-            }
+            }}
         } catch (error) {
 
         } finally {
-            stage('reports') {
-                steps {
-                    script {
-                        allure([
-                                includeProperties: false,
-                                jdk              : '',
-                                reportBuildPolicy: 'ALWAYS',
-                                results          : [[path: 'target/allure-results']]
-                        ])
+            stages {
+                stage('reports') {
+                    steps {
+                        script {
+                            allure([
+                                    includeProperties: false,
+                                    jdk              : '',
+                                    reportBuildPolicy: 'ALWAYS',
+                                    results          : [[path: 'target/allure-results']]
+                            ])
+                        }
                     }
                 }
             }
         }
-    }
+
 
 }
