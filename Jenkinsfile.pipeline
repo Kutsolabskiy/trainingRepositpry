@@ -7,5 +7,7 @@
                }
            } catch (error) {
                echo "BLYAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!"
+           } finally {
+               echo "BLYAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!"
            }
         }
