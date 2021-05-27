@@ -1,21 +1,7 @@
-pipeline {
-    agent any
-
-            stages {
-
-            stage('Build') {
-                steps {
-                    bat "cd $WORKSPACE"
-                    bat "mvn clean test"
-                }
+#!groovy
+        node('FirstNode') {
+            stage ("Tests") {
+                bat "cd $WORKSPACE"
+                bat "mvn clean test"
             }
-                stage('Build2') {
-                    steps {
-                        bat "cd $WORKSPACE"
-                        bat "mvn clean test"
-                    }
-                }
-            }
-
-
-}
+        }
