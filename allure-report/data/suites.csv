@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 27 17:29:13 EEST 2021","Thu May 27 17:29:13 EEST 2021","97","All Test Suite","E:/IT/AllureReportSeleniumTestNG","allure_reports.Tests","allure_reports.Tests","logoPresence","Verify Logo presence on Home Page","Verify Logo presence on Home Page........"
+"skipped","Thu May 27 17:29:18 EEST 2021","Thu May 27 17:29:18 EEST 2021","1","All Test Suite","E:/IT/AllureReportSeleniumTestNG","allure_reports.Tests","allure_reports.Tests","registrationTest","registrationTest","Verify Login........"
+"failed","Thu May 27 17:29:14 EEST 2021","Thu May 27 17:29:18 EEST 2021","4072","All Test Suite","E:/IT/AllureReportSeleniumTestNG","allure_reports.Tests","allure_reports.Tests","loginTest","loginTest","Verify Login........"

@@ -1,0 +1,106 @@
+{
+  "uid" : "48379dd423c1575a",
+  "name" : "Verify Logo presence on Home Page",
+  "fullName" : "allure_reports.Tests.logoPresence",
+  "historyId" : "7ee9fd4fbca0c023a0d060fe2b2fc3bf",
+  "time" : {
+    "start" : 1621201551036,
+    "stop" : 1621201551092,
+    "duration" : 56
+  },
+  "description" : "Verify Logo presence on Home Page........",
+  "descriptionHtml" : "<p>Verify Logo presence on Home Page........</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1621201547600,
+      "stop" : 1621201550992,
+      "duration" : 3392
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1621201551154,
+      "stop" : 1621201551759,
+      "duration" : 605
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "allure_reports.Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_reports.Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "logoPresence"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "AllureReportSeleniumTestNG"
+  }, {
+    "name" : "subSuite",
+    "value" : "allure_reports.Tests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CSVMUE"
+  }, {
+    "name" : "thread",
+    "value" : "5840@DESKTOP-1CSVMUE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: Logo Presence"
+  }, {
+    "name" : "feature",
+    "value" : "Feature 1: Logo"
+  }, {
+    "name" : "epic",
+    "value" : "EP001"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48379dd423c1575a.json",
+  "parameterValues" : [ ]
+}

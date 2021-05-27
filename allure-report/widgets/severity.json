@@ -1,0 +1,31 @@
+[ {
+  "uid" : "4e2088e342773731",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1622125754039,
+    "stop" : 1622125758111,
+    "duration" : 4072
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "814d5ccf0e86d3ac",
+  "name" : "registrationTest",
+  "time" : {
+    "start" : 1622125758124,
+    "stop" : 1622125758125,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "92ae28e29a07056",
+  "name" : "Verify Logo presence on Home Page",
+  "time" : {
+    "start" : 1622125753853,
+    "stop" : 1622125753950,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "minor"
+} ]

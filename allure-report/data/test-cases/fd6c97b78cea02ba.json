@@ -1,0 +1,106 @@
+{
+  "uid" : "fd6c97b78cea02ba",
+  "name" : "Verify Logo presence on Home Page",
+  "fullName" : "allure_reports.Tests.logoPresence",
+  "historyId" : "7ee9fd4fbca0c023a0d060fe2b2fc3bf",
+  "time" : {
+    "start" : 1621198572663,
+    "stop" : 1621198572735,
+    "duration" : 72
+  },
+  "description" : "Verify Logo presence on Home Page........",
+  "descriptionHtml" : "<p>Verify Logo presence on Home Page........</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1621198567311,
+      "stop" : 1621198572620,
+      "duration" : 5309
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1621198578510,
+      "stop" : 1621198579127,
+      "duration" : 617
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "allure_reports.Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "allure_reports.Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "logoPresence"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "E:/IT/AllureReportSeleniumTestNG"
+  }, {
+    "name" : "subSuite",
+    "value" : "allure_reports.Tests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1CSVMUE"
+  }, {
+    "name" : "thread",
+    "value" : "14528@DESKTOP-1CSVMUE.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: Logo Presence"
+  }, {
+    "name" : "epic",
+    "value" : "EP001"
+  }, {
+    "name" : "feature",
+    "value" : "Feature 1: Logo"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd6c97b78cea02ba.json",
+  "parameterValues" : [ ]
+}

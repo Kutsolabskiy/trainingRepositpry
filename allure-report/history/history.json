@@ -1,0 +1,61 @@
+{
+  "326b3789fa31a5fd788068cc8f43e0e0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e2088e342773731",
+      "status" : "failed",
+      "statusDetails" : "expected [Success log in] but found [nopCommerce demo store. Login]",
+      "time" : {
+        "start" : 1622125754039,
+        "stop" : 1622125758111,
+        "duration" : 4072
+      }
+    } ]
+  },
+  "7ee9fd4fbca0c023a0d060fe2b2fc3bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92ae28e29a07056",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622125753853,
+        "stop" : 1622125753950,
+        "duration" : 97
+      }
+    } ]
+  },
+  "8e661b6f6dcd71a55a330cd99bb5e23a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "814d5ccf0e86d3ac",
+      "status" : "skipped",
+      "statusDetails" : "Skipping this test",
+      "time" : {
+        "start" : 1622125758124,
+        "stop" : 1622125758125,
+        "duration" : 1
+      }
+    } ]
+  }
+}

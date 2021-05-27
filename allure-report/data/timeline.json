@@ -1,0 +1,662 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-1CSVMUE",
+    "children" : [ {
+      "name" : "9700@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "fbecae7978115130",
+        "parentUid" : "2206c539aad026866d255e688ec9336d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622124283611,
+          "stop" : 1622124283693,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "e44b0ab702becbe7",
+        "parentUid" : "2206c539aad026866d255e688ec9336d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622124283749,
+          "stop" : 1622124286845,
+          "duration" : 3096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "40ee3888b41c9ea4",
+        "parentUid" : "2206c539aad026866d255e688ec9336d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1622124286849,
+          "stop" : 1622124286849,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2206c539aad026866d255e688ec9336d"
+    }, {
+      "name" : "9500@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "5c2ec2a71645c38",
+        "parentUid" : "81ee5d75a520fbccac170dbf71e7042a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622113387727,
+          "stop" : 1622113391824,
+          "duration" : 4097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "e9d132fe588eff20",
+        "parentUid" : "81ee5d75a520fbccac170dbf71e7042a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622113387605,
+          "stop" : 1622113387673,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "d8bbfcb2b57c4da7",
+        "parentUid" : "81ee5d75a520fbccac170dbf71e7042a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1622113391829,
+          "stop" : 1622113391829,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81ee5d75a520fbccac170dbf71e7042a"
+    }, {
+      "name" : "16208@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "c5338e29af33afed",
+        "parentUid" : "718fcec646a53151fe06467bfcc28bb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621201260063,
+          "stop" : 1621201260124,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "7f1798839f4ae0ef",
+        "parentUid" : "718fcec646a53151fe06467bfcc28bb5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621201260179,
+          "stop" : 1621201263289,
+          "duration" : 3110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "5f583257525c9e0e",
+        "parentUid" : "718fcec646a53151fe06467bfcc28bb5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621201263296,
+          "stop" : 1621201263296,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "718fcec646a53151fe06467bfcc28bb5"
+    }, {
+      "name" : "3560@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "348605b9836c7c0a",
+        "parentUid" : "9dc31ca0fd5f546e10c953c16135e237",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622124239804,
+          "stop" : 1622124239869,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "20720273a58c6a55",
+        "parentUid" : "9dc31ca0fd5f546e10c953c16135e237",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1622124243065,
+          "stop" : 1622124243066,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "f153c06fcb68438a",
+        "parentUid" : "9dc31ca0fd5f546e10c953c16135e237",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622124239920,
+          "stop" : 1622124243058,
+          "duration" : 3138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9dc31ca0fd5f546e10c953c16135e237"
+    }, {
+      "name" : "14528@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "a56cdc9458ded1d",
+        "parentUid" : "281e74848c1d0033873443074eff8523",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621198572780,
+          "stop" : 1621198578501,
+          "duration" : 5721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "48118b4d96eb15f9",
+        "parentUid" : "281e74848c1d0033873443074eff8523",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621198578507,
+          "stop" : 1621198578507,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "fd6c97b78cea02ba",
+        "parentUid" : "281e74848c1d0033873443074eff8523",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621198572663,
+          "stop" : 1621198572735,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "281e74848c1d0033873443074eff8523"
+    }, {
+      "name" : "16536@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "registrationTest",
+        "uid" : "2d31b73f2503f4d1",
+        "parentUid" : "98b4c2a4a597bf95a4943545de734625",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621287704990,
+          "stop" : 1621287704991,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "bc91832ea41d8664",
+        "parentUid" : "98b4c2a4a597bf95a4943545de734625",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621287700992,
+          "stop" : 1621287704986,
+          "duration" : 3994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "1515abeda6bc4fde",
+        "parentUid" : "98b4c2a4a597bf95a4943545de734625",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621287700885,
+          "stop" : 1621287700938,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98b4c2a4a597bf95a4943545de734625"
+    }, {
+      "name" : "7824@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "ac0dfeac8e935420",
+        "parentUid" : "35ac85bfea22d375c9487fd118cccdbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621057387596,
+          "stop" : 1621057387674,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "35ac85bfea22d375c9487fd118cccdbf"
+    }, {
+      "name" : "16528@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "registrationTest",
+        "uid" : "d9120542588a49e1",
+        "parentUid" : "87c5bae6f1a40974fd8bd8985d9e86f0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621285853917,
+          "stop" : 1621285853918,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "8a27348b1f29898",
+        "parentUid" : "87c5bae6f1a40974fd8bd8985d9e86f0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621285849951,
+          "stop" : 1621285853912,
+          "duration" : 3961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "1530cc5ac7d68eb1",
+        "parentUid" : "87c5bae6f1a40974fd8bd8985d9e86f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621285849807,
+          "stop" : 1621285849893,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87c5bae6f1a40974fd8bd8985d9e86f0"
+    }, {
+      "name" : "952@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "60be4a53be250e9",
+        "parentUid" : "ab1b317ce7820382813da29623a67776",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621287781163,
+          "stop" : 1621287781222,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "e3ed3fc2ccf0d5f6",
+        "parentUid" : "ab1b317ce7820382813da29623a67776",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621287781274,
+          "stop" : 1621287784506,
+          "duration" : 3232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "9353af70c90f1393",
+        "parentUid" : "ab1b317ce7820382813da29623a67776",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621287784510,
+          "stop" : 1621287784511,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab1b317ce7820382813da29623a67776"
+    }, {
+      "name" : "9392@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "92ae28e29a07056",
+        "parentUid" : "a8c2ea3f9ff03794ee2dbea83fc1c375",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622125753853,
+          "stop" : 1622125753950,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "4e2088e342773731",
+        "parentUid" : "a8c2ea3f9ff03794ee2dbea83fc1c375",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622125754039,
+          "stop" : 1622125758111,
+          "duration" : 4072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "814d5ccf0e86d3ac",
+        "parentUid" : "a8c2ea3f9ff03794ee2dbea83fc1c375",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1622125758124,
+          "stop" : 1622125758125,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8c2ea3f9ff03794ee2dbea83fc1c375"
+    }, {
+      "name" : "416@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "fe70ba7af9281129",
+        "parentUid" : "38283f12160cb064c2c337ac861a9f40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621201673908,
+          "stop" : 1621201673971,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "e53fb496f3ae4053",
+        "parentUid" : "38283f12160cb064c2c337ac861a9f40",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621201677054,
+          "stop" : 1621201677055,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "ff1ba002a139382d",
+        "parentUid" : "38283f12160cb064c2c337ac861a9f40",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621201674020,
+          "stop" : 1621201677050,
+          "duration" : 3030
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38283f12160cb064c2c337ac861a9f40"
+    }, {
+      "name" : "2396@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "69a7b8ba1c46f14c",
+        "parentUid" : "531b20e72b495759da964e0dd89b5432",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621201142135,
+          "stop" : 1621201146100,
+          "duration" : 3965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "f84a7b51d757c4f6",
+        "parentUid" : "531b20e72b495759da964e0dd89b5432",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621201142007,
+          "stop" : 1621201142080,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "5c7030a8fa2f7084",
+        "parentUid" : "531b20e72b495759da964e0dd89b5432",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621201146105,
+          "stop" : 1621201146105,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "531b20e72b495759da964e0dd89b5432"
+    }, {
+      "name" : "11652@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "b2b1e1fa9a8a40e4",
+        "parentUid" : "694b3abdfbda54419f9430073cad1c6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621280058665,
+          "stop" : 1621280058719,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "674424bfc9b697e8",
+        "parentUid" : "694b3abdfbda54419f9430073cad1c6f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621280058770,
+          "stop" : 1621280061860,
+          "duration" : 3090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "4947984c7066c677",
+        "parentUid" : "694b3abdfbda54419f9430073cad1c6f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621280061863,
+          "stop" : 1621280061864,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "694b3abdfbda54419f9430073cad1c6f"
+    }, {
+      "name" : "9888@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "fd9582df37e399f6",
+        "parentUid" : "2bcdde9545ce3d48c13c33237d9913f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619112645645,
+          "stop" : 1619112649907,
+          "duration" : 4262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "registrationTest",
+        "uid" : "6511f43ce22c9f7e",
+        "parentUid" : "2bcdde9545ce3d48c13c33237d9913f1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1619112649921,
+          "stop" : 1619112649922,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "14ffc26e4ff44f8b",
+        "parentUid" : "2bcdde9545ce3d48c13c33237d9913f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619112645457,
+          "stop" : 1619112645558,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2bcdde9545ce3d48c13c33237d9913f1"
+    }, {
+      "name" : "14292@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "c2ed93e61bc2af37",
+        "parentUid" : "48b136f60c1754664d8a2c88c5d5c5f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621201576974,
+          "stop" : 1621201577035,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "48b136f60c1754664d8a2c88c5d5c5f9"
+    }, {
+      "name" : "5840@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "48379dd423c1575a",
+        "parentUid" : "7d85af2b9e4c21ce5975641e00d80082",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621201551036,
+          "stop" : 1621201551092,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d85af2b9e4c21ce5975641e00d80082"
+    }, {
+      "name" : "10356@DESKTOP-1CSVMUE.main(1)",
+      "children" : [ {
+        "name" : "registrationTest",
+        "uid" : "5323f7fbf9363b25",
+        "parentUid" : "07b9c2f8098095dd65bdd5026b2cbdcd",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621201510311,
+          "stop" : 1621201510312,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "1cd2864ab54a0a9d",
+        "parentUid" : "07b9c2f8098095dd65bdd5026b2cbdcd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621201506302,
+          "stop" : 1621201510307,
+          "duration" : 4005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Logo presence on Home Page",
+        "uid" : "1477433eadd87868",
+        "parentUid" : "07b9c2f8098095dd65bdd5026b2cbdcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621201506183,
+          "stop" : 1621201506242,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07b9c2f8098095dd65bdd5026b2cbdcd"
+    } ],
+    "uid" : "eb05d9f025169b87a5ad3894e66998b3"
+  } ]
+}

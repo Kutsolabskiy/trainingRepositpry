@@ -8,7 +8,6 @@ pipeline {
         stage('Build') {
             steps {
                 bat "cd $WORKSPACE"
-                bat "dir"
                 bat "mvn clean test"
             }
         }

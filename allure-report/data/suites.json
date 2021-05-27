@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "E:/IT/AllureReportSeleniumTestNG",
+      "children" : [ {
+        "name" : "allure_reports.Tests",
+        "children" : [ {
+          "name" : "Verify Logo presence on Home Page",
+          "uid" : "92ae28e29a07056",
+          "parentUid" : "fc746228d7816143af615c24d58c3c17",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622125753853,
+            "stop" : 1622125753950,
+            "duration" : 97
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "loginTest",
+          "uid" : "4e2088e342773731",
+          "parentUid" : "fc746228d7816143af615c24d58c3c17",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622125754039,
+            "stop" : 1622125758111,
+            "duration" : 4072
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "registrationTest",
+          "uid" : "814d5ccf0e86d3ac",
+          "parentUid" : "fc746228d7816143af615c24d58c3c17",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1622125758124,
+            "stop" : 1622125758125,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fc746228d7816143af615c24d58c3c17"
+      } ],
+      "uid" : "a9ec7da36658167cc6ff53eb55d17c7a"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}
