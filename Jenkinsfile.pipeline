@@ -5,32 +5,20 @@ pipeline {
     }
 
 
-        try {
             stages {
             stage('Build') {
                 steps {
                     bat "cd $WORKSPACE"
                     bat "mvn clean test"
                 }
-            }}
-        } catch (error) {
-
-        } finally {
-            stages {
-                stage('reports') {
+            }
+                stage('Build2') {
                     steps {
-                        script {
-                            allure([
-                                    includeProperties: false,
-                                    jdk              : '',
-                                    reportBuildPolicy: 'ALWAYS',
-                                    results          : [[path: 'target/allure-results']]
-                            ])
-                        }
+                        bat "cd $WORKSPACE"
+                        bat "mvn clean test"
                     }
                 }
             }
-        }
 
 
 }
