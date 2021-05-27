@@ -9,13 +9,20 @@
                    bat "cd $WORKSPACE"
                    bat "mvn clean test"
                }
-               stage("Tests3") {
-                   bat "cd $WORKSPACE"
-                   bat "mvn clean test"
-               }
            } catch (error) {
                echo "BLYAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!"
            } finally {
-
+               stage('reports') {
+                   steps {
+                       script {
+                           allure([
+                                   includeProperties: false,
+                                   jdk: '',
+                                   reportBuildPolicy: 'ALWAYS',
+                                   results: [[path: 'target/allure-results']]
+                           ])
+                       }
+                   }
+               }
            }
         }
