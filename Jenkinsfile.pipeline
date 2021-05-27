@@ -1,11 +1,9 @@
 #!groovy
         node() {
-           try {
+
                stage("Tests") {
                    bat "cd $WORKSPACE"
                    bat "mvn clean test"
                }
-           } catch (error) {
-               echo "BLYAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!"
-           }
+
         }
