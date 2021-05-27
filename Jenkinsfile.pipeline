@@ -9,7 +9,7 @@ pipeline {
             steps {
                 bat "cd $WORKSPACE"
                 bat "dir"
-                bat "mvn clear install"
+                bat "mvn clear test"
             }
         }
     }
