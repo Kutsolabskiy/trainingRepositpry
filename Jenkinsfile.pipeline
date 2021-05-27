@@ -1,13 +1,7 @@
 #!groovy
         node() {
 
-            allure([
-                    includeProperties: false,
-                    jdk: '',
-                    properties: [[key: 'allure.issues.tracker.pattern', value: 'http://tracker.company.com/%s']],
-                    reportBuildPolicy: 'ALWAYS',
-                    results: [[path: 'target/allure-results'], [path: 'target/allure-results']]
-            ])
+
 
 
            try {
@@ -22,6 +16,13 @@
            } catch (error) {
                echo "BLYAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!"
            } finally {
+               allure([
+                       includeProperties: false,
+                       jdk: '',
+                       properties: [[key: 'allure.issues.tracker.pattern', value: 'http://tracker.company.com/%s']],
+                       reportBuildPolicy: 'ALWAYS',
+                       results: [[path: 'target/allure-results'], [path: 'target/allure-results']]
+               ])
                stage('reports') {
                    steps {
                        script {
@@ -36,5 +37,12 @@
                    }
                }
            }
+            allure([
+                    includeProperties: false,
+                    jdk: '',
+                    properties: [[key: 'allure.issues.tracker.pattern', value: 'http://tracker.company.com/%s']],
+                    reportBuildPolicy: 'ALWAYS',
+                    results: [[path: 'target/allure-results'], [path: 'target/allure-results']]
+            ])
         }
 
