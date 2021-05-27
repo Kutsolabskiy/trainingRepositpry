@@ -4,11 +4,30 @@ pipeline {
         maven "Maven3"
     }
 
-    stages {
-        stage('Build') {
-            steps {
-                bat "cd $WORKSPACE"
-                bat "mvn clean test"
+    node() {
+
+        try {
+                stage ('Tests') {
+                    steps {
+                        bat "cd $WORKSPACE"
+                        bat "mvn clean test"
+                    }
+                }
+
+
+
+        } catch (error) {
+
+        } finally {
+            stage ("Publish tests results") {
+                script {
+                    allure([
+                            includeProperties: false,
+                            jdk: '',
+                            reportBuildPolicy: 'ALWAYS',
+                            results: [[path: 'target/allure-results']]
+                    ])
+                }
             }
         }
     }
