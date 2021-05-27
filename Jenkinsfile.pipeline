@@ -2,7 +2,6 @@
         node() {
 
 
-            try {
                stage("Tests") {
                    bat "cd $WORKSPACE"
                    bat "mvn clean test"
@@ -11,12 +10,7 @@
                    bat "cd $WORKSPACE"
                    bat "mvn clean test"
                }
-           } catch (error) {
-               echo "BLYAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!"
-                throw e
-           } finally {
-
-               stage('reports') {
+                stage('reports') {
                    steps {
                        script {
                            allure([
@@ -27,5 +21,5 @@
                }
            }
 
-        }
+
 
