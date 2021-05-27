@@ -1,23 +1,19 @@
-@Library('Helper') import ibs.jenkins.*
+pipeline {
+    agent any
+    tools {
+        maven "Maven3"
+    }
 
-timestamps {
-
-    node() {
-
-        try {
-                stage ('Tests') {
-                    steps {
-                        bat "cd $WORKSPACE"
-                        bat "mvn clean test"
-                    }
-                }
-
-
-
-        } catch (error) {
-
-        } finally {
-            stage ("Publish tests results") {
+    stages {
+        stage('Build') {
+            steps {
+                bat "cd $WORKSPACE"
+                bat "dir"
+                bat "mvn clean test"
+            }
+        }
+        stage('reports') {
+            steps {
                 script {
                     allure([
                             includeProperties: false,
