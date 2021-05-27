@@ -35,7 +35,7 @@ public class Tests{
         Assert.assertTrue(isStatus);
     }
 
-    @Test(priority = 2)
+ //   @Test(priority = 2)
     @Description("Verify Login........")
     @Epic("EP001")
     @Feature("Feature 1: Login")
@@ -69,7 +69,7 @@ public class Tests{
         Assert.assertEquals(driver.getTitle(), "Success log in");
     }
 
-    @Test(priority = 3)
+  //  @Test(priority = 3)
     @Description("Verify Login........")
     @Epic("EP001")
     @Feature("Feature 1: Login")
