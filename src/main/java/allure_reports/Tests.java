@@ -23,15 +23,13 @@ public class Tests{
         driver.get("https://demo.nopcommerce.com/");
     }
 
-    @Test(priority = 1, description = "Verify Logo presence on Home Page")
-
+    @Test
     public void logoPresence() {
         boolean isStatus = driver.findElement(By.xpath("//div[@class =\"header-logo\"]//a//img")).isDisplayed();
         Assert.assertTrue(isStatus);
     }
 
-    @Test(priority = 2)
-
+    @Test
     public void loginTest() throws InterruptedException {
         WebElement loginButton = driver.findElement(By.xpath("//div[@class =\"header-links\"]//li/a[@class = 'ico-login']"));
         WaitUtils.waitUntilClickable(loginButton).click();
@@ -59,13 +57,7 @@ public class Tests{
         Assert.assertEquals(driver.getTitle(), "Success log in");
     }
 
-  //  @Test(priority = 3)
-    @Description("Verify Login........")
-    @Epic("EP001")
-    @Feature("Feature 1: Login")
-    @Story("Story: Valid Login")
-    @Step("Verify login")
-    @Severity(SeverityLevel.NORMAL)
+    @Test
     public void registrationTest() {
         throw new SkipException("Skipping this test");
     }
