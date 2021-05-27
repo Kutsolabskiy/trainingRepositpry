@@ -8,7 +8,7 @@
                     reportBuildPolicy: 'ALWAYS',
                     results: [[path: 'target/allure-results'], [path: 'target/allure-results']]
             ])
-        }
+
 
            try {
                stage("Tests") {
@@ -37,3 +37,4 @@
                }
            }
         }
+
