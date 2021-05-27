@@ -13,6 +13,7 @@
                }
            } catch (error) {
                echo "BLYAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!"
+                throw e
            } finally {
 
                stage('reports') {
