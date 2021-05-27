@@ -1,12 +1,8 @@
 package allure_reports;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.AfterClass;
@@ -39,7 +35,7 @@ public class Tests{
         Assert.assertTrue(isStatus);
     }
 
-    @Test(priority = 2)
+//    @Test(priority = 2)
     @Description("Verify Login........")
     @Epic("EP001")
     @Feature("Feature 1: Login")
@@ -73,7 +69,7 @@ public class Tests{
         Assert.assertEquals(driver.getTitle(), "Success log in");
     }
 
-    @Test(priority = 3)
+//    @Test(priority = 3)
     @Description("Verify Login........")
     @Epic("EP001")
     @Feature("Feature 1: Login")
