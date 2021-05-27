@@ -24,24 +24,14 @@ public class Tests{
     }
 
     @Test(priority = 1, description = "Verify Logo presence on Home Page")
-    @Description("Verify Logo presence on Home Page........")
-    @Epic("EP001")
-    @Feature("Feature 1: Logo")
-    @Story("Story: Logo Presence")
-    @Step("Verify Logo presence")
-    @Severity(SeverityLevel.MINOR)
+
     public void logoPresence() {
         boolean isStatus = driver.findElement(By.xpath("//div[@class =\"header-logo\"]//a//img")).isDisplayed();
         Assert.assertTrue(isStatus);
     }
 
- //   @Test(priority = 2)
-    @Description("Verify Login........")
-    @Epic("EP001")
-    @Feature("Feature 1: Login")
-    @Story("Story: Valid Login")
-    @Step("Verify login")
-    @Severity(SeverityLevel.BLOCKER)
+    @Test(priority = 2)
+
     public void loginTest() throws InterruptedException {
         WebElement loginButton = driver.findElement(By.xpath("//div[@class =\"header-links\"]//li/a[@class = 'ico-login']"));
         WaitUtils.waitUntilClickable(loginButton).click();
