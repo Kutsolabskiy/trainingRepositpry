@@ -1,0 +1,9 @@
+#!groovy
+        node() {
+
+               stage("Tests") {
+                   bat "cd $WORKSPACE"
+                   bat "mvn clean test"
+               }
+
+        }
